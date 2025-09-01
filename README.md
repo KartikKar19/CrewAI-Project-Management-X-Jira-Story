@@ -1,35 +1,79 @@
-1️⃣ Diagram: SDLC → Epics → Stories → Assignees
-PROJECT (SCRUM)
-│
-├─ Epic: Requirements Gathering (Assigned: Project Manager)
-│    ├─ Story: Interview stakeholders  → Assigned to: Team Member 1
-│    ├─ Story: Document requirements   → Assigned to: Team Member 2
-│    └─ Story: Review approval          → Assigned to: Team Member 3
-│
-├─ Epic: System Design (Assigned: Project Manager)
-│    ├─ Story: Create UML diagrams     → Assigned to: Team Member 4
-│    ├─ Story: Database schema design  → Assigned to: Team Member 1
-│    └─ Story: Architecture review     → Assigned to: Team Member 2
-│
-├─ Epic: Development (Assigned: Project Manager)
-│    ├─ Story: Frontend implementation → Assigned to: Team Member 3
-│    ├─ Story: Backend APIs            → Assigned to: Team Member 4
-│    └─ Story: Integrate DB            → Assigned to: Team Member 1
-│
-├─ Epic: Testing (Assigned: Project Manager)
-│    ├─ Story: Unit testing            → Assigned to: Team Member 2
-│    ├─ Story: Integration testing     → Assigned to: Team Member 3
-│    └─ Story: Bug fixing               → Assigned to: Team Member 4
-│
-├─ Epic: Deployment (Assigned: Project Manager)
-│    ├─ Story: CI/CD pipeline          → Assigned to: Team Member 1
-│    ├─ Story: Deploy to staging       → Assigned to: Team Member 2
-│    └─ Story: Deploy to production    → Assigned to: Team Member 3
-│
-└─ Epic: Maintenance (Assigned: Project Manager)
-     ├─ Story: Monitor system          → Assigned to: Team Member 4
-     ├─ Story: Patch bugs              → Assigned to: Team Member 1
-     └─ Story: Feature updates         → Assigned to: Team Member 2
+flowchart TD
+    %% Project Node
+    PROJECT[Project: SCRUM]
+
+    %% Epics (SDLC Phases)
+    REQ[Requirements Gathering (Epic)]
+    DESIGN[System Design (Epic)]
+    DEV[Development (Epic)]
+    TEST[Testing (Epic)]
+    DEPLOY[Deployment (Epic)]
+    MAINT[Maintenance (Epic)]
+
+    %% Connect Epics to Project
+    PROJECT --> REQ
+    PROJECT --> DESIGN
+    PROJECT --> DEV
+    PROJECT --> TEST
+    PROJECT --> DEPLOY
+    PROJECT --> MAINT
+
+    %% Requirements Gathering Stories
+    REQ1[Interview stakeholders]
+    REQ2[Document requirements]
+    REQ3[Review approval]
+
+    REQ --> REQ1
+    REQ --> REQ2
+    REQ --> REQ3
+
+    %% System Design Stories
+    DES1[Create UML diagrams]
+    DES2[Database schema design]
+    DES3[Architecture review]
+
+    DESIGN --> DES1
+    DESIGN --> DES2
+    DESIGN --> DES3
+
+    %% Development Stories
+    DEV1[Frontend implementation]
+    DEV2[Backend APIs]
+    DEV3[Integrate DB]
+
+    DEV --> DEV1
+    DEV --> DEV2
+    DEV --> DEV3
+
+    %% Testing Stories
+    TEST1[Unit testing]
+    TEST2[Integration testing]
+    TEST3[Bug fixing]
+
+    TEST --> TEST1
+    TEST --> TEST2
+    TEST --> TEST3
+
+    %% Deployment Stories
+    DEP1[CI/CD pipeline]
+    DEP2[Deploy to staging]
+    DEP3[Deploy to production]
+
+    DEPLOY --> DEP1
+    DEPLOY --> DEP2
+    DEPLOY --> DEP3
+
+    %% Maintenance Stories
+    MAINT1[Monitor system]
+    MAINT2[Patch bugs]
+    MAINT3[Feature updates]
+
+    MAINT --> MAINT1
+    MAINT --> MAINT2
+    MAINT --> MAINT3
+
+    %% Optional: you can show assignees in parentheses or as labels
+    %% Example: REQ1["Interview stakeholders (John Doe)"]
 
 
 Explanation of diagram:
