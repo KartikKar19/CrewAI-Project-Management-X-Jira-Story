@@ -128,14 +128,14 @@ Linked to the parent Epic.
 Below are key screenshots from the project workflow:
 
 1. **Story 1**
-   ![Story 1](images/story1.png)
+   ![Story 1](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/main/images/story1.jpg?raw=true)
 2. **Me**
-   ![Me](images/me.png)
+   ![Me](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/main/images/me.jpg?raw=true)
 3. **Todo**
-   ![Todo](images/todo.png)
+   ![Todo](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/main/images/todo.jpg?raw=true)
 4. **Scrum 1**
-   ![Scrum 1](images/scrum1.png)
+   ![Scrum 1](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/main/images/scrum1.jpg?raw=true)
 5. **Scrum 2**
-   ![Scrum 2](images/scrum2.png)
+   ![Scrum 2](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/main/images/scrum2.jpg?raw=true)
 6. **Scrum Last**
-   ![Scrum Last](images/scrumlast.png)
+   ![Scrum Last](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/main/images/scrumlast.jpg?raw=true)
