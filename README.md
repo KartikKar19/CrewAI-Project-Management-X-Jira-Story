@@ -1,80 +1,40 @@
-flowchart TD
-    %% Project Node
-    PROJECT[Project: SCRUM]
+# 🚀 Project: SCRUM
 
-    %% Epics (SDLC Phases)
-    REQ[Requirements Gathering (Epic)]
-    DESIGN[System Design (Epic)]
-    DEV[Development (Epic)]
-    TEST[Testing (Epic)]
-    DEPLOY[Deployment (Epic)]
-    MAINT[Maintenance (Epic)]
+This document outlines the high-level structure and workflow for a software development project following the **SCRUM** framework. The project is broken down into key phases, which are represented as **Epics**, and each Epic contains smaller, actionable tasks known as **Stories**.
 
-    %% Connect Epics to Project
-    PROJECT --> REQ
-    PROJECT --> DESIGN
-    PROJECT --> DEV
-    PROJECT --> TEST
-    PROJECT --> DEPLOY
-    PROJECT --> MAINT
+---
 
-    %% Requirements Gathering Stories
-    REQ1[Interview stakeholders]
-    REQ2[Document requirements]
-    REQ3[Review approval]
-
-    REQ --> REQ1
-    REQ --> REQ2
-    REQ --> REQ3
-
-    %% System Design Stories
-    DES1[Create UML diagrams]
-    DES2[Database schema design]
-    DES3[Architecture review]
-
-    DESIGN --> DES1
-    DESIGN --> DES2
-    DESIGN --> DES3
-
-    %% Development Stories
-    DEV1[Frontend implementation]
-    DEV2[Backend APIs]
-    DEV3[Integrate DB]
-
-    DEV --> DEV1
-    DEV --> DEV2
-    DEV --> DEV3
-
-    %% Testing Stories
-    TEST1[Unit testing]
-    TEST2[Integration testing]
-    TEST3[Bug fixing]
-
-    TEST --> TEST1
-    TEST --> TEST2
-    TEST --> TEST3
-
-    %% Deployment Stories
-    DEP1[CI/CD pipeline]
-    DEP2[Deploy to staging]
-    DEP3[Deploy to production]
-
-    DEPLOY --> DEP1
-    DEPLOY --> DEP2
-    DEPLOY --> DEP3
-
-    %% Maintenance Stories
-    MAINT1[Monitor system]
-    MAINT2[Patch bugs]
-    MAINT3[Feature updates]
-
-    MAINT --> MAINT1
-    MAINT --> MAINT2
-    MAINT --> MAINT3
-
-    %% Optional: you can show assignees in parentheses or as labels
-    %% Example: REQ1["Interview stakeholders (John Doe)"]
-
+PROJECT (SCRUM)
+│
+├─ Epic: Requirements Gathering (Project Manager)
+│    ├─ Story: Interview stakeholders → Assigned to: Member 1
+│    ├─ Story: Document requirements → Assigned to: Member 2
+│    └─ Story: Review approval → Assigned to: Member 3
+│
+├─ Epic: System Design (Project Manager)
+│    ├─ Story: Create UML diagrams → Assigned to: Member 4
+│    ├─ Story: Database schema design → Assigned to: Member 1
+│    └─ Story: Architecture review → Assigned to: Member 2
+│
+├─ Epic: Development (Project Manager)
+│    ├─ Story: Frontend implementation → Assigned to: Member 3
+│    ├─ Story: Backend APIs → Assigned to: Member 4
+│    └─ Story: Integrate DB → Assigned to: Member 1
+│
+├─ Epic: Testing (Project Manager)
+│    ├─ Story: Unit testing → Assigned to: Member 2
+│    ├─ Story: Integration testing → Assigned to: Member 3
+│    └─ Story: Bug fixing → Assigned to: Member 4
+│
+├─ Epic: Deployment (Project Manager)
+│    ├─ Story: CI/CD pipeline → Assigned to: Member 1
+│    ├─ Story: Deploy to staging → Assigned to: Member 2
+│    └─ Story: Deploy to production → Assigned to: Member 3
+│
+└─ Epic: Maintenance (Project Manager)
+     ├─ Story: Monitor system → Assigned to: Member 4
+     ├─ Story: Patch bugs → Assigned to: Member 1
+     └─ Story: Feature updates → Assigned to: Member 2
 
 Explanation of diagram:
 
