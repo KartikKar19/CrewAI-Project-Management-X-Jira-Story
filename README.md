@@ -122,3 +122,20 @@ For each Story under an Epic:
 Assigned randomly to a team member.
 
 Linked to the parent Epic.
+
+## Project Screenshots
+
+Below are key screenshots from the project workflow:
+
+1. **Story 1**
+   ![Story 1](images/story1.png)
+2. **Me**
+   ![Me](images/me.png)
+3. **Todo**
+   ![Todo](images/todo.png)
+4. **Scrum 1**
+   ![Scrum 1](images/scrum1.png)
+5. **Scrum 2**
+   ![Scrum 2](images/scrum2.png)
+6. **Scrum Last**
+   ![Scrum Last](images/scrumlast.png)
