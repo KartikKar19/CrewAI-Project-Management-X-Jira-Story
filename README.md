@@ -139,3 +139,4 @@ Below are key screenshots from the project workflow:
    ![Scrum 2](https://raw.githubusercontent.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/main/images/scrum2.jpg)
 6. **Scrum Last**
    ![Scrum Last](https://raw.githubusercontent.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/main/images/scrumlast.jpg)
+
