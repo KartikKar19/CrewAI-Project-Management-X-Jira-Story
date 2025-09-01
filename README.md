@@ -128,14 +128,14 @@ Linked to the parent Epic.
 Below are key screenshots from the project workflow:
 
 1. **Story 1**
-   ![Story 1](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/9bca5e0503e0c83321735b4160cc9c4925f567d9/images/story1.jpg)
+   ![Story 1](https://raw.githubusercontent.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/main/images/story1.jpg)
 2. **Me**
-   ![Me](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/9bca5e0503e0c83321735b4160cc9c4925f567d9/images/me.jpg)
+   ![Me](https://raw.githubusercontent.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/main/images/me.jpg)
 3. **Todo**
-   ![Todo](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/9bca5e0503e0c83321735b4160cc9c4925f567d9/images/todo.jpg)
+   ![Todo](https://raw.githubusercontent.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/main/images/todo.jpg)
 4. **Scrum 1**
-   ![Scrum 1](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/9bca5e0503e0c83321735b4160cc9c4925f567d9/images/scrum1.jpg)
+   ![Scrum 1](https://raw.githubusercontent.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/main/images/scrum1.jpg)
 5. **Scrum 2**
-   ![Scrum 2](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/9bca5e0503e0c83321735b4160cc9c4925f567d9/images/scrum2.jpg)
+   ![Scrum 2](https://raw.githubusercontent.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/main/images/scrum2.jpg)
 6. **Scrum Last**
-   ![Scrum Last](https://github.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/blob/9bca5e0503e0c83321735b4160cc9c4925f567d9/images/scrumlast.jpg)
+   ![Scrum Last](https://raw.githubusercontent.com/KartikKar19/CrewAI-Project-Management-X-Jira-Story/main/images/scrumlast.jpg)
