@@ -1,40 +1,28 @@
-# 🚀 Project: SCRUM
-
-This document outlines the high-level structure and workflow for a software development project following the **SCRUM** framework. The project is broken down into key phases, which are represented as **Epics**, and each Epic contains smaller, actionable tasks known as **Stories**.
-
----
-
-PROJECT (SCRUM)
-│
-├─ Epic: Requirements Gathering (Project Manager)
-│    ├─ Story: Interview stakeholders → Assigned to: Member 1
-│    ├─ Story: Document requirements → Assigned to: Member 2
-│    └─ Story: Review approval → Assigned to: Member 3
-│
-├─ Epic: System Design (Project Manager)
-│    ├─ Story: Create UML diagrams → Assigned to: Member 4
-│    ├─ Story: Database schema design → Assigned to: Member 1
-│    └─ Story: Architecture review → Assigned to: Member 2
-│
-├─ Epic: Development (Project Manager)
-│    ├─ Story: Frontend implementation → Assigned to: Member 3
-│    ├─ Story: Backend APIs → Assigned to: Member 4
-│    └─ Story: Integrate DB → Assigned to: Member 1
-│
-├─ Epic: Testing (Project Manager)
-│    ├─ Story: Unit testing → Assigned to: Member 2
-│    ├─ Story: Integration testing → Assigned to: Member 3
-│    └─ Story: Bug fixing → Assigned to: Member 4
-│
-├─ Epic: Deployment (Project Manager)
-│    ├─ Story: CI/CD pipeline → Assigned to: Member 1
-│    ├─ Story: Deploy to staging → Assigned to: Member 2
-│    └─ Story: Deploy to production → Assigned to: Member 3
-│
-└─ Epic: Maintenance (Project Manager)
-     ├─ Story: Monitor system → Assigned to: Member 4
-     ├─ Story: Patch bugs → Assigned to: Member 1
-     └─ Story: Feature updates → Assigned to: Member 2
+- **PROJECT** (SCRUM)
+  - **Epic: Requirements Gathering** (Project Manager)
+    - Story: Interview stakeholders → Assigned to: Member 1
+    - Story: Document requirements → Assigned to: Member 2
+    - Story: Review approval → Assigned to: Member 3
+  - **Epic: System Design** (Project Manager)
+    - Story: Create UML diagrams → Assigned to: Member 4
+    - Story: Database schema design → Assigned to: Member 1
+    - Story: Architecture review → Assigned to: Member 2
+  - **Epic: Development** (Project Manager)
+    - Story: Frontend implementation → Assigned to: Member 3
+    - Story: Backend APIs → Assigned to: Member 4
+    - Story: Integrate DB → Assigned to: Member 1
+  - **Epic: Testing** (Project Manager)
+    - Story: Unit testing → Assigned to: Member 2
+    - Story: Integration testing → Assigned to: Member 3
+    - Story: Bug fixing → Assigned to: Member 4
+  - **Epic: Deployment** (Project Manager)
+    - Story: CI/CD pipeline → Assigned to: Member 1
+    - Story: Deploy to staging → Assigned to: Member 2
+    - Story: Deploy to production → Assigned to: Member 3
+  - **Epic: Maintenance** (Project Manager)
+    - Story: Monitor system → Assigned to: Member 4
+    - Story: Patch bugs → Assigned to: Member 1
+    - Story: Feature updates → Assigned to: Member 2
 
 Explanation of diagram:
 
